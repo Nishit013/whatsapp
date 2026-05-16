@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WhatsApp</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="header">
+      <img src="https://ui-avatars.com/api/?name=User&background=0D8ABC&color=fff" class="avatar" alt="Me">
+      <div class="header-icons">
+        <button>◯</button>
+        <button>✎</button>
+        <button>⋮</button>
+      </div>
+    </div>
+    <div class="search-bar">
+      <div class="search-box">
+        <span>🔍</span>
+        <input type="text" placeholder="Search or start new chat">
+      </div>
+    </div>
+    <div class="chat-list" id="chatList"></div>
+  </aside>
+  <main class="main">
+    <div class="chat-header">
+      <img src="" class="avatar" id="headerAvatar" alt="">
+      <div class="chat-info">
+        <div class="chat-name" id="headerName">Select a chat</div>
+        <div class="chat-status" id="headerStatus">click a contact</div>
+      </div>
+      <div class="header-icons">
+        <button>🔍</button>
+        <button>⋮</button>
+      </div>
+    </div>
+    <div class="chat-body" id="chatBody"></div>
+    <div class="chat-footer">
+      <button class="icon-btn">😊</button>
+      <button class="icon-btn">📎</button>
+      <div class="input-wrap">
+        <input type="text" id="msgInput" placeholder="Type a message">
+      </div>
+      <button class="icon-btn" id="sendBtn">🎤</button>
+    </div>
+  </main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
